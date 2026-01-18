@@ -302,10 +302,11 @@ h1, h2, h3, h4, h5, h6 {
 .hero-bottom {
     flex: none;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     z-index: 1;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
+    padding: 0 20px;
 }
 
 .hero-description {
@@ -313,6 +314,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondary);
     margin-bottom: 30px;
     line-height: 1.8;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .hero-buttons {
