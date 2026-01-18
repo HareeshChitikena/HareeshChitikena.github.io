@@ -235,10 +235,10 @@ h1, h2, h3, h4, h5, h6 {
 /* ===== Hero Section ===== */
 .hero {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     padding: 100px 20px;
     position: relative;
     background: var(--bg-primary);
@@ -269,10 +269,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content {
-    flex: none;
+    flex: none !important;
+    width: 100% !important;
     max-width: 700px;
     z-index: 1;
-    text-align: center;
+    text-align: center !important;
 }
 
 .hero-greeting {
@@ -341,7 +342,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-    flex: none;
+    flex: none !important;
+    width: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
