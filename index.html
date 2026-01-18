@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hareesh Chitikena | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">HC</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#interests" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Research</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Hareesh Chitikena</h1>
+            <p class="hero-title">Mechatronics Engineer | System Integration | Robotics</p>
+            <p class="hero-description">
+                A solution-focused engineer with a multidisciplinary background in automation, 
+                control systems, and mechatronics. Skilled in system integration, product development, 
+                and system improvements. Based in Grimstad, Norway.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/hareesh1113111" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hareesh1113111/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:hari.chitikena@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <div class="photo-front">
+                    <img src="images/profile.jpg" alt="Hareesh Chitikena" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fas fa-user\'></i>';">
+                </div>
+                <div class="photo-back">
+                    <img src="images/Picture2.jpg" alt="Hareesh with Snake Robot">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I face challenges with a smile and love working in teams while also being capable of 
+                        independent work. I'm always excited about engineering and development, curious to 
+                        learn new things. I believe in keeping solutions simple – simple solutions are the best solutions.
+                    </p>
+                    <p>
+                        I prefer to fail than not trying, and I stay focused on what I can control. 
+                        I might not know everything but have the potential to learn and deliver projects. 
+                        New problem? No problem: We can figure out, learn, and deliver.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Grimstad, Norway</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>PhD - Universitetet i Agder</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Available Immediately</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-id-card"></i>
+                            <span>Permanent Residence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-drafting-compass"></i>
+                            <span>CAD</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Mechatronics</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wave-square"></i>
+                            <span>MATLAB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>ROS2</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cubes"></i>
+                            <span>Altair</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C/C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-ship"></i>
+                            <span>MBD Sim</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="timeline-container">
+                <div class="timeline-column">
+                    <h3 class="timeline-heading"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - Present</div>
+                            <div class="timeline-content">
+                                <h4>Ph.D. in Mechatronics/Robotics</h4>
+                                <p>University of Agder (UiA), Grimstad, Norway</p>
+                                <span class="timeline-desc">System Integration (industry oriented) - Snake robot dynamics, control systems, mechatronics</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2015 - 2017</div>
+                            <div class="timeline-content">
+                                <h4>Master of Design in Mechanical Systems</h4>
+                                <p>IIITDM Kancheepuram, Chennai, India</p>
+                                <span class="timeline-desc">Indian Institute of Information Technology, Design & Manufacturing</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2010 - 2014</div>
+                            <div class="timeline-content">
+                                <h4>B.Tech in Mechanical Engineering</h4>
+                                <p>SNIST, Hyderabad, India</p>
+                                <span class="timeline-desc">Sreenidhi Institute of Science and Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-column">
+                    <h3 class="timeline-heading"><i class="fas fa-briefcase"></i> Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Nov 2025 - Present</div>
+                            <div class="timeline-content">
+                                <h4>Reinforcement Learning Engineer</h4>
+                                <p>Consigli AS, Oslo, Norway</p>
+                                <span class="timeline-desc">Automated design optimisation of MEP systems using AI-based methods</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Dec 2024 - Jun 2025</div>
+                            <div class="timeline-content">
+                                <h4>Mechanical/System Engineer</h4>
+                                <p>cDynamics AS, Kristiansand, Norway</p>
+                                <span class="timeline-desc">MBD-control simulation for ship/offshore applications, multidisciplinary system integration</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">May 2024 - Sep 2024</div>
+                            <div class="timeline-content">
+                                <h4>Visiting Researcher - Robotics</h4>
+                                <p>Ritsumeikan University, Shiga, Japan</p>
+                                <span class="timeline-desc">Mechatronic design of snake robot for varying friction environments</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Feb 2021 - Apr 2024</div>
+                            <div class="timeline-content">
+                                <h4>Research Fellow - Robotics</h4>
+                                <p>University of Agder, Grimstad, Norway</p>
+                                <span class="timeline-desc">Snake robot development, CAD modeling, adaptive control strategies</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Aug 2019 - Dec 2020</div>
+                            <div class="timeline-content">
+                                <h4>Project Officer & Scientist</h4>
+                                <p>IIT Madras, Chennai, India</p>
+                                <span class="timeline-desc">H₂ production system design, DST-IITM Solar Energy research coordination</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jun 2017 - Jul 2019</div>
+                            <div class="timeline-content">
+                                <h4>Mechanical Design Engineer</h4>
+                                <p>SVP Laser Technologies & IIT Madras</p>
+                                <span class="timeline-desc">Automation/mechatronic systems design, prototyping, project management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">What I Can Bring</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Multi-faceted Engineering</h3>
+                    <p>Solve problems from different and simple approaches at system level with solid understanding of both hardware and software.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>System Integration</h3>
+                    <p>Can work with both hardware and software for complete system integration. Experienced in mechatronics and embedded systems.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotics & Control</h3>
+                    <p>Expertise in robot dynamics, path following control, velocity control, and adaptive control systems.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <h3>Offshore Simulations</h3>
+                    <p>Capable of multi-body offshore simulations with experience in complex dynamic modeling.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI, Sensors & ML</h3>
+                    <p>Ready to learn and implement AI, machine learning, and sensor technologies as per project requirements.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Simple Solutions</h3>
+                    <p>Believe in keeping solutions simple and effective. New problem? No problem – we can figure out, learn, and deliver.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Research & Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Snake Robot Dynamic Modeling</h3>
+                        <p>PhD research on complex dynamic modeling of snake robots with viscous friction models, environment interaction with friction, and reference curve following.</p>
+                        <div class="project-tags">
+                            <span>Dynamics</span>
+                            <span>MATLAB</span>
+                            <span>Modeling</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-graduation-cap"></i> UiA Research</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Path Following Controller</h3>
+                        <p>Developed path following controller for snake robots including speed/velocity control, head angle control, and shape controller with polar conversion.</p>
+                        <div class="project-tags">
+                            <span>Control Systems</span>
+                            <span>Path Planning</span>
+                            <span>Adaptive Control</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i> Research</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Snake Robot Control System</h3>
+                        <p>Implementation of linearizing controller, exponentially stable joint controller, and controllable parameters for snake robot link angle control.</p>
+                        <div class="project-tags">
+                            <span>Robotics</span>
+                            <span>Control Theory</span>
+                            <span>Stability</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i> Research</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Multi-friction Environment Simulations</h3>
+                        <p>Research on cDynamics and multi-friction environment simulations for underwater and offshore applications.</p>
+                        <div class="project-tags">
+                            <span>Simulation</span>
+                            <span>Offshore</span>
+                            <span>Multi-body</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i> Research</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/hareesh1113111" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> View More on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>
+                        I'm always open to discussing new opportunities, interesting projects, 
+                        or just having a chat about technology. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:hari.chitikena@gmail.com">hari.chitikena@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/hareesh1113111/" target="_blank">linkedin.com/in/hareesh1113111</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Grimstad, Norway</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/hareesh1113111" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hareesh1113111/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:hari.chitikena@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="footer-text">
+                    &copy; 2026 Hareesh Chitikena. All rights reserved.
+                </p>
+                <p class="footer-credit">
+                    Designed & Built with <i class="fas fa-heart"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
